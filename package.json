@@ -1,0 +1,19 @@
+{
+  "name": "node-xmpp-jsonrpc",
+  "version": "1.0.0",
+  "description": "XML-RPC over XMPP.",
+  "main": "node-xmpp-jsonrpc/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "XMPP",
+    "XML-RPC"
+  ],
+  "author": "NeoAtlantis",
+  "license": "MIT",
+  "dependencies": {
+    "json-rpc-2.0": "^0.2.19",
+    "xmpp.js": "^0.12.0"
+  }
+}
