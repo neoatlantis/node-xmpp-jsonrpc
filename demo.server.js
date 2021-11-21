@@ -1,5 +1,5 @@
 const {  xml } = require("@xmpp/client");
-const { XMPPRPCServer } = require("./node-xmpp-rpc");
+const { XMPPRPCServer } = require("./node-xmpp-jsonrpc");
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 const xmpprpc = new XMPPRPCServer({

@@ -1,4 +1,4 @@
-const { XMPPRPCClient } = require("./node-xmpp-rpc");
+const { XMPPRPCClient } = require("./node-xmpp-jsonrpc");
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 const xmpprpc = new XMPPRPCClient({
